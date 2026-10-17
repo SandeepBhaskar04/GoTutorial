@@ -7,12 +7,12 @@ jobs:
     first-job:
         runs-on: ubuntu-latest
         steps:
-            - name: Welcome message
-              run: echo "My first github actions job"
+        - name: Welcome message
+          run: echo "My first github actions job"
 
-            - name: Checkout and list the repo files
-              uses: actions/checkout@v7.0.1
-              run: ls -l
+        - name: Checkout and list the repo files
+          uses: actions/checkout@v7.0.1
+          run: ls -l
 
-            - name: Print the book.json file data
-              run: cat ./data/book.json
+        - name: Print the book.json file data
+          run: cat ./data/book.json
