@@ -4,7 +4,7 @@ on:
     push
 
 jobs:
-    first-job:
+    first_job:
         runs-on: ubuntu-latest
         steps:
         - name: Welcome message
