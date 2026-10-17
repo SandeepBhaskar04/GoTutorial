@@ -12,7 +12,7 @@ jobs:
 
         - name: Checkout and list the repo files
           uses: actions/checkout@v7.0.1
-          run: ls -l
+          run: ls
 
         - name: Print the book.json file data
           run: cat ./data/book.json
