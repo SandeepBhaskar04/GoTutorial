@@ -10,9 +10,11 @@ jobs:
         - name: Welcome message
           run: echo "My first github actions job"
 
-        - name: Checkout and list the repo files
+        - name: Checkout repo
           uses: actions/checkout@v7.0.1
-          run: ls
+          
+        - name: List the repo files
+          run: ls -l
 
         - name: Print the book.json file data
           run: cat ./data/book.json
