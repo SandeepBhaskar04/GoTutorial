@@ -12,6 +12,8 @@ jobs:
 
         - name: Checkout repo and list all the files
           uses: actions/checkout@v7.0.1
+        
+        - name: List and show the content of the file
           run: |
             echo "Listing the files....."
             ls -l
