@@ -4,7 +4,7 @@ on:
     push
 
 jobs:
-    create_the_env:
+    create_env:
         runs_on: ubuntu-latest
         steps:
             - name: Checkout the repo
